@@ -11,6 +11,6 @@ describe("getHealth controller", () => {
 
     getHealth(req, res);
 
-    expect(res.json).toHaveBeenCalledWith({ message: "Health OK" });
+    expect(res.json).toHaveBeenCalledWith({ message: "Health OKK" });
   });
 });
